@@ -1,0 +1,141 @@
+/* header */
+.hero__fig {
+  height: 28px;
+}
+
+.hero__link {
+  font-size: 1.35rem;
+}
+
+/* main section one*/
+.main__section-one {
+  background: url(../img/bg-curvy-desktop.svg);
+  background-size: 980px;
+  background-position: center bottom 10%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+  height: 8%;
+  background: var(--color-two);
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+}
+
+.main__title-one {
+  font-size: 2.4rem;
+}
+
+.main__copy-one {
+  font-size: 1.45rem;
+}
+
+.btn-one {
+  width: 230px;
+}
+
+/* main section two */
+.main__fig-two {
+  height: 58px;
+}
+
+.main__title-two {
+  font-size: 1.9rem;
+}
+
+.main__copy-two {
+  font-size: 1.45rem;
+}
+
+/* main section three */
+.main__title-three {
+  font-size: 1.9rem;
+}
+
+.main__copy-three {
+  font-size: 1.45rem;
+}
+
+.main__link-three {
+  font-size: 1.3rem;
+}
+
+/* main section four */
+.main__section-four {
+  display: grid;
+  justify-content: center;
+}
+
+.main__card-four {
+  margin: 15px;
+}
+
+.main__figure-four {
+  height: 30px;
+  top: -15%;
+}
+
+.main__copy-four {
+  font-size: 1.2rem;
+}
+
+.main__fig-four {
+  height: 28px;
+}
+
+.main__name-four {
+  font-size: 1.2rem;
+}
+
+.main__desc-four {
+  font-size: .9rem;
+}
+
+/* contact */
+.contact-four {
+  max-width: 728px;
+  top: 14rem;
+}
+
+.contact__title {
+  font-size: 1.9rem;
+}
+
+.contact__copy {
+  font-size: 1.45rem;
+}
+
+.form__email {
+  max-width: 430px;
+  margin-right: 20px;
+}
+
+.form__btn {
+  max-width: 220px;
+}
+
+/* footer */
+.footer {
+  padding-top: 190px;
+}
+
+.footer__figure {
+  height: 30px;
+  width: 30px;
+}
+
+.footer__ico {
+  height: 13px;
+}
+
+@media screen and (min-width:764px) {
+  #text {
+    position: relative;
+    top: -15px;
+    left: calc(-28% + -10px);
+    font-size: 1.3rem;
+  }
+}
