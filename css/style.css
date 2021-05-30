@@ -156,7 +156,7 @@ body {
   width: 100%;
   padding-top: 120px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(375px, 500px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
   justify-items: center;
   justify-content: center;
   align-items: center;
